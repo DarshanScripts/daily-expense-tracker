@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Alarm Settings">
+		<!--		alarm sound pref-->
+		<Preference
+			android:key="prefAlarmSound"
+			android:summary="Select your preferred alarm sound"
+			android:title="Alarm Sound" />
+		
+		<!--		snooze duration pref-->
+		<ListPreference
+			android:defaultValue="10"
+			android:key="prefSnoozeDuration"
+			android:summary="Select snooze duration"
+			android:title="Snooze Duration" />
+		
+		<CheckBoxPreference
+			android:key="prefVibration"
+			android:summary="Enable or disable vibration"
+			android:title="Vibration" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="Application Icon">
+		
+		<!-- icon size pref -->
+		<ListPreference
+			android:defaultValue="medium"
+			android:key="prefIconSize"
+			android:summary="Select the size of the application icon"
+			android:title="Icon Size" />
+	
+	</PreferenceCategory>
+	
+	<SwitchPreference
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:title="Switch preference" />
+	
+	<ListPreference
+		android:defaultValue="defaultLanguage"
+		android:entries="@array/languageEntries"
+		android:entryValues="@array/languageValues"
+		android:key="prefLang"
+		android:summary="Select your preferred language"
+		android:title="Language" />
+	
+	<ListPreference
+		android:defaultValue="defaultFontStyle"
+		android:entries="@array/fontStyleEntries"
+		android:entryValues="@array/fontStyleValues"
+		android:key="prefFontStyle"
+		android:summary="Select your preferred font style"
+		android:title="Font Style" />
+	
+	<ListPreference
+		android:defaultValue="defaultFontSize"
+		android:entries="@array/fontSizeEntries"
+		android:entryValues="@array/fontSizeValues"
+		android:key="prefFontSize"
+		android:summary="Select your preferred font size"
+		android:title="Font Size" />
+
+</PreferenceScreen>

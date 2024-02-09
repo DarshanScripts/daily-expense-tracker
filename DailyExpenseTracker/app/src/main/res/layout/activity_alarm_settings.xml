@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="16dp"
+	android:background="@drawable/app_background">
+	
+	<!-- Title for the alarm settings -->
+	<TextView
+		android:id="@+id/textViewTitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Set Daily Alarm"
+		android:textSize="24sp"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp" />
+	
+	<!-- Time picker to choose the alarm time -->
+	<TimePicker
+		android:id="@+id/timePicker"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="16dp" />
+	
+	<!-- Label for the alarm -->
+	<TextView
+		android:id="@+id/textViewLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Alarm Label:"
+		android:textSize="18sp"
+		android:layout_marginTop="10dp" />
+	
+	<!-- EditText to enter the alarm label -->
+	<EditText
+		android:id="@+id/notificationLabel"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:layout_marginTop="20dp">
+	<!-- Save button to set the alarm -->
+	<Button
+		android:id="@+id/btnSaveAlarm"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Save Alarm"
+		android:layout_gravity="center"
+		android:background="@color/system"
+		android:textColor="@color/white"
+		android:paddingHorizontal="10dp"
+		android:layout_marginRight="20dp"/>
+	
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:background="@color/system"
+		android:onClick="loadHomepage"
+		android:text="Home"
+		android:textColor="@color/white" />
+	</LinearLayout>
+</LinearLayout>

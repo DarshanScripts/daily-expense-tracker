@@ -1,0 +1,66 @@
+<resources>
+	<string name="app_name">DailyExpenseTracker</string>
+	
+	<string-array name="incomeCategory">
+		<item>Allowance</item>
+		<item>Bonus</item>
+		<item>Business</item>
+		<item>Investment</item>
+		<item>Pension</item>
+		<item>Salary</item>
+		<item>Other</item>
+	</string-array>
+	
+	<string-array name="expenseCategory">
+		<item>Accessories</item>
+		<item>Bills</item>
+		<item>Groceries</item>
+		<item>Food</item>
+		<item>Fuels</item>
+		<item>Transportation</item>
+		<item>Other</item>
+	</string-array>
+	
+	<string-array name="paymentMethod">
+		<item>Debit Card</item>
+		<item>Credit Card</item>
+		<item>UPI</item>
+		<item>Paytm Wallet</item>
+		<item>Amazon Wallet</item>
+		<item>Cash</item>
+	</string-array>
+	
+	<string-array name="languageEntries">
+		<item>English</item>
+		<item>Hindi</item>
+		<item>Gujarati</item>
+	</string-array>
+	<string-array name="languageValues">
+		<item>en</item>
+		<item>es</item>
+		<item>fr</item>
+	</string-array>
+	
+	<string-array name="fontStyleEntries">
+		<item>Regular</item>
+		<item>Bold</item>
+	</string-array>
+	<string-array name="fontStyleValues">
+		<item>regular</item>
+		<item>bold</item>
+	</string-array>
+	
+	<!-- Font Size -->
+	<string-array name="fontSizeEntries">
+		<item>Small</item>
+		<item>Medium</item>
+		<item>Large</item>
+	</string-array>
+	<string-array name="fontSizeValues">
+		<item>small</item>
+		<item>medium</item>
+		<item>large</item>
+	</string-array>
+
+
+</resources>
