@@ -68,7 +68,7 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 
 ## 👨‍💻 Author
 
-Developed with ❤️ by **Darshan Shah**. Let's connect!
+Developed by **Darshan Shah**. Let's connect!
 
 - 🔗 **GitHub**: [DarshanScripts](https://github.com/DarshanScripts)
 - 🔗 **Quora**: [Darshan Shah](https://www.quora.com/profile/Darshan-Shah-1056)
